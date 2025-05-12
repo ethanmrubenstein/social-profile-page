@@ -33,6 +33,10 @@ body {
   width: 400px;
 }
 
+.card-container {
+  padding: 1rem;
+}
+
 .card__header-avatar {
   margin-bottom: 2rem;
   border-radius: 100%;
@@ -85,4 +89,8 @@ body {
 
 /* Media Queries */
 @media (max-width: 576px) {
+  .card {
+    max-width: 100%;
+    border-radius: 0;
+  }
 }
